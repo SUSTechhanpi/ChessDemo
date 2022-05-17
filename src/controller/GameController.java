@@ -23,7 +23,7 @@ public class GameController {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+        return new ArrayList<>();
     }
 
 }
